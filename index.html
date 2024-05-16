@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrousel Javascript</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+</head>
+<body>
+    <header>
+        <h1>Sliders, voyage !</h1>
+        <nav class="toolbar">
+            <a id="toolbar-toggle" href="#"><i class="fa fa-arrow-right"></i>Barre d'outils</a>
+            <ul class="hide">
+                <li><button id="slider-previous" tittle="Image précédente"><i class="fa fa-backward"></i></button></li>
+                <li><button id="slider-toggle" tittle="Démarrer le carrousel"><i class="fa fa-play"></i></button></li>
+                <li><button id="slider-next" tittle="Image suivante"><i class="fa fa-forward"></i></button></li>
+                <li><button id="slider-random" tittle="Sélectionner une image aléatoire"><i class="fa fa-random"></i></button></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <figure id="slider" class="slider">
+            <img src="" alt="Photo du carrousel">
+            <figcaption></figcaption>
+        </figure>
+
+        <a href="#" id="test">play</a>
+    </main>
+    
+    <script src="js/slider.js"></script>
+    <script src="js/utilities.js"></script>
+</body>
+</html>
